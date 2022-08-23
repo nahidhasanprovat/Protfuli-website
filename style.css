@@ -7,7 +7,7 @@ h1{
 .orange-colour{
     color: rgb(43, 13, 239);
 }
-section{
+.flexible-continer{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,4 +32,26 @@ section{
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px grey;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    }
+.experiences-aria{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#early-devolper{
+    border-left: 5px solid red;
+}
+#junior-devoloper{
+    border-left: 5px solid blue;
+}
+footer p{
+    text-align: center;
 }

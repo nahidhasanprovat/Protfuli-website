@@ -9,6 +9,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -21,11 +22,14 @@ section{
     text-decoration: none;
     padding: 10px 40px;
     border-radius: 5px;
-    color: rgb(174, 28, 28);
-    font-weight: 700;
-    background-image: linear-gradient(blue rgb(20, 39, 80));
+    color: rgb(250, 253, 254);
+    font-weight: 700;background-color: rgb(86, 86, 249);
 }
 .top-banner{
     background-image: url(developer-portfolio-master/images/);
 }
-
+.dream-big{
+    background-image: url(developer-portfolio-master/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
